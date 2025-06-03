@@ -58,6 +58,39 @@ You mean the world to me — and I’m always here for you.  \n
 Rate karo kesi lagi? 
 """)
 
+spotify_embeds = """
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/track/3uRSnYGEw2ZKwUjo2Hz5I1?utm_source=generator" 
+width="100%" height="152" frameBorder="0" allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+
+<br>
+
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/track/21jGcNKet2qwijlDFuPiPb?utm_source=generator" 
+width="100%" height="152" frameBorder="0" allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+
+<br>
+
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/track/1FWsomP9StpCcXNWmJk8Cl?utm_source=generator" 
+width="100%" height="152" frameBorder="0" allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+
+<br>
+
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/track/3bQsp4Vr9Rg4fNCx6HPOgX?utm_source=generator" 
+width="100%" height="152" frameBorder="0" allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+"""
+
+st.markdown(spotify_embeds, unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("Made with 💖 by Daniyal")
