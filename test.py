@@ -87,4 +87,4 @@ st.markdown(spotify_embeds, unsafe_allow_html=True)
 st.markdown("---")
 st.markdown("Made with 💖 by Daniyal")
 
-st.image("maxresdefault.jpg", caption="yalo gift", use_column_width=True)
+st.image("maxresdefault.jpg", caption="yalo gift", use_container_width=True)
