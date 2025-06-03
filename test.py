@@ -34,6 +34,15 @@ st.markdown(
 st.markdown('<div class="lottie-container">', unsafe_allow_html=True)
 st_lottie(lottie_hearts, speed=1, height=800, key="hearts")
 st.markdown('</div>', unsafe_allow_html=True)
+spotify_embed_code = """
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/track/3uRSnYGEw2ZKwUjo2Hz5I1?utm_source=generator" 
+width="100%" height="152" frameBorder="0" allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+"""
+
+st.markdown(spotify_embed_code, unsafe_allow_html=True)
 
 st.markdown('<div class="content-container">', unsafe_allow_html=True)
 st.title("💘 Love U Muzzaqa Twin💘")
